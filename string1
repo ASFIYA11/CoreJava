@@ -1,0 +1,19 @@
+public class string06{
+
+	public static void main(String[] args) {
+		String input = "hello good morning";
+		String res = " ";
+		String[] cha = input.split(" ");
+		for(String in: cha) {
+			String rev = " ";
+			for(int i = in.length()-1;i>=0;i--) {
+			rev += in.charAt(i);
+			} 
+			res += rev+" ";
+			} 
+		
+		      System.out.println(res);
+		// TODO Auto-generated method stub
+	}
+
+}
