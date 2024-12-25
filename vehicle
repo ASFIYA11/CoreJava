@@ -1,0 +1,23 @@
+public class Vehicle {
+private int price;
+private String name;
+
+public static void main(String[] args) {
+	Vehicle c1=new Vehicle();
+	c1.name="nano";
+	c1.price=150000;
+	System.out.println(c1.name+" "+c1.price);
+	c1.startengine();
+	c1.endengine();
+}
+
+private void endengine() {
+	// TODO Auto-generated method stub
+	
+}
+
+private void startengine() {
+	// TODO Auto-generated method stub
+	
+}
+}
