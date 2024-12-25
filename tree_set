@@ -1,0 +1,17 @@
+// TREESET
+package collections;
+
+import java.util.TreeSet;
+public class TreeSetExample {
+	public static void main(String[] args) {
+		TreeSet ts=new TreeSet();
+		ts.add(10);
+		ts.add(88);
+		ts.add(78);
+		ts.ceiling(60);
+		ts.higher(50);
+		ts.floor(77);
+		ts.lower(45);
+		System.out.println(ts);
+	}
+}
