@@ -1,0 +1,26 @@
+// constructor
+
+
+
+public class AA {
+public void print_AA() {
+	System.out.println("Class AA");
+}
+}
+
+ class BB extends AA{
+	public void print_BB() {
+		System.out.println("Class BB");
+	}
+}
+ class CC extends AA{
+	 public void print_CC() {
+		 System.out.println("Class CC");
+	 }
+ }
+ class DD extends  AA{
+	 public void print_DD() {
+		 System.out.println("Class DD");
+	 }
+ }
+ 
